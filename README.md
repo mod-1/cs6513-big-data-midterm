@@ -1,6 +1,6 @@
 # README
 
-This file contains the instructions to run the code for the midterm along with the explanation of the code. Any references made in the code are also mentioned here.
+This file contains the instructions to run the code for the midterm along with the explanation of the code. The codebase has taken inspiration from the solutions that I have submitted in assignment 1 and 2.
 
 ## Execution
 
