@@ -10,6 +10,7 @@ def main(k):
     reservoir = []
     # input comes from STDIN (standard input)
     lines = read_input(sys.stdin)
+    i = 0
     for line in lines:
         for sentence in line:
             if sentence == '':
@@ -17,9 +18,10 @@ def main(k):
             if len(reservoir) < k:
                 reservoir.append(sentence)
             else:
-                m = random.randint(0, len(reservoir) - 1)
+                m = random.randint(0, i - 1)
                 if m < k:
                     reservoir[m] = sentence
+            i += 1
     return reservoir
 
 if __name__ == "__main__":
